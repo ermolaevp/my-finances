@@ -1,0 +1,39 @@
+{
+  "name": "my-finances",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "lint": "tslint -p ./src",
+    "lint:fix": "tslint --fix -p ./src"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.3",
+    "apollo-boost": "^0.1.12",
+    "apollo-link-context": "^1.0.8",
+    "firebase": "^5.3.1",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "react": "^16.4.2",
+    "react-apollo": "^2.1.9",
+    "react-dom": "^16.4.2",
+    "react-scripts-ts": "2.17.0",
+    "recompose": "^0.28.2"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.13",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/graphql": "^0.13.4",
+    "@types/jest": "^23.3.1",
+    "@types/react": "^16.4.8",
+    "@types/react-dom": "^16.0.7",
+    "@types/recompose": "^0.26.4",
+    "enzyme": "^3.4.0",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "react-test-renderer": "^16.4.2",
+    "typescript": "^3.0.1"
+  }
+}
