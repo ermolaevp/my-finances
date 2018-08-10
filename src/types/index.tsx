@@ -1,6 +1,11 @@
 export interface ITransaction {
   id: string;
   amount: number;
-  createdAt: string;
   title: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface ITransactions {
+  transactions: ITransaction[];
 }
